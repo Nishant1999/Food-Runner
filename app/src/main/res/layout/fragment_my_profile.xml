@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/man" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:layout_below="@+id/icon"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10dp"
+            android:background="@drawable/rounded_search_edittext"
+            android:paddingTop="15dp"
+            android:text="Nishant"
+            android:textAlignment="center"
+            android:textColor="@color/splashColor"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/mobileNo"
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:layout_below="@+id/name"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10dp"
+            android:background="@drawable/rounded_search_edittext"
+            android:paddingTop="15dp"
+            android:text="@string/mobile_number_10_digits"
+            android:textAlignment="center"
+            android:textColor="@color/splashColor"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:layout_below="@+id/mobileNo"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10dp"
+            android:background="@drawable/rounded_search_edittext"
+            android:paddingTop="15dp"
+            android:text="@string/nishantbadaya_gmail_com"
+            android:textAlignment="center"
+            android:textColor="@color/splashColor"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/address"
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:layout_below="@+id/email"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10dp"
+            android:background="@drawable/rounded_search_edittext"
+            android:paddingTop="15dp"
+            android:text="@string/delivery_address"
+            android:textAlignment="center"
+            android:textColor="@color/splashColor"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:gravity="center_horizontal" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
